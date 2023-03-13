@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> Conditions </title>
+        <link rel="stylesheet" href="loops.css" type="text/css" />
+        <script src="loops.js"></script>
+    </head>
+    <body>
+        <div class="form">
+            <h1>Loops</h1>
+            <form name="form1" action="javascript:void(0);">
+                <h2>Enter multiple numbers: </h2>
+                <ul>
+                    <li>
+                        <input type= "text" id="t1"/>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <input type= "submit" name="validate" value="Even numbers" onclick="evenNum(document.form1.t1)"/>
+                        <p id="p1"></p>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <input type= "submit" name="validate" value="Second largest number" onclick="slargeNum();"/>
+                        <p id="p2"></p>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                </ul>
+                <h2>Enter a positive number: </h2>
+                <ul>
+                    <li>
+                        <input type= "text" id="t3"/>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <input type= "submit" name="validate" value="Fibonacci series" onclick="fiboSer(document.form1.t3)"/>
+                        <p id="p3"></p>
+                    </li>
+                    <li>
+                        &nbsp;
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </body>
+</html>
